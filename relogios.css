@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #f5f1ea;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 60px 20px;
+  background: #f5f1ea;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #b8965e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.produtos {
+  padding: 40px 20px;
+}
+
+h2 {
+  width: 100%;
+  margin: 40px 0 20px;
+  font-weight: normal;
+  color: #444;
+}
+
+.grupo {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 230px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-weight: normal;
+}
+
+.preco {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+  color: #b8965e;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background: #b8965e;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #a07d4f;
+}
